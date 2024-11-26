@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from password_generator import character_pool, generate_password
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/generate-password', methods = ['POST'])
 def generate_password_api():
