@@ -22,6 +22,9 @@ if include_special:
 
 secure_password = ''
 
+if password_size <= 0:
+    print('Invalid password size! \nTry again! Remember to set a minimum password length!')
+    
 for i in range(password_size):
     secure_password += choice(chars)
 
