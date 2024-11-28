@@ -1,10 +1,10 @@
 document.getElementById('generate-btn').addEventListener('click', async () => {
-    console.log(
-        document.getElementById('password-size'),
-        document.getElementById('uppercase'),
-        document.getElementById('numbers'),
-        document.getElementById('special')
-      );
+    // console.log(
+    //     document.getElementById('password-size'),
+    //     document.getElementById('uppercase'),
+    //     document.getElementById('numbers'),
+    //     document.getElementById('special')
+    //   );
 
     const passwordSize = document.getElementById('password-size').value;
     const includeUppercase = document.getElementById('uppercase').checked;
