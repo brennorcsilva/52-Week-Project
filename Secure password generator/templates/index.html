@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <div class="image-section">
-            <img src="./cybersecurity4_0.webp"/>
+            <img src="{{ url_for('static', filename='cybersecurity4_0.webp')}}"/>
         </div>
         
         <div class="form-section">
@@ -54,7 +54,7 @@
         </div>
     </div>
         
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
  
 </body>
 </html>
