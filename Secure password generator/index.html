@@ -17,17 +17,18 @@
             <div class="text">
                 <h1>Secure Password Generator</h1>
                 <p>Protect your accounts with secure, personalized passwords</p>
+
             </div>
-
-            <hr style="border-color:#aaa; box-sizing:border-box; width:80%;"/>
-
+            
+            
             <form id="password-form">
+                <hr style="border-color:#aaa; box-sizing:border-box; width:100%;"/>
                 <div class="right">
                     <!-- size -->
                     <label for="password-size">Password size</label>
                     <input type="number" id="password-size" value="" min="1">
-                    <hr style="border-color:#aaa; box-sizing:border-box; width:100%;"/>
                 </div>
+                <hr style="border-color:#aaa; box-sizing:border-box; width:100%;"/>
                 
                 <div class="options">
                     <!-- uppercase -->
@@ -38,12 +39,17 @@
                     <label><input type="checkbox" id="special">Special characters</label>
                 </div>
 
+                <hr style="border-color:#aaa; box-sizing:border-box; width:100%;"/>
+
+
                 <div class="password-display">
                     <input type="text" id="password" readonly>
                 </div>
 
-                <button type="button" id="generate-btn">Generate</button>
-                <button type="button" id="copy-btn">Copy</button>
+                <div class="buttons">
+                    <button type="button" id="generate-btn">Generate</button>
+                    <button type="button" id="copy-btn">Copy</button>
+                </div>
             </form>
         </div>
     </div>
