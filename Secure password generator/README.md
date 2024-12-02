@@ -1,3 +1,4 @@
+## English version
 # Secure password generator
 
 ## A Password Generator built with Flask (Python) for backend and HTML/CSS/JavaScript for the frontend. This project allows users to generate secure passwords with customizable options such as length, uppercase letters, numbers, and special characters.
@@ -18,7 +19,7 @@
 - Python 3.x
 - Flask and Flask-CORS libraries installed
 
-
+## Versão em Português
 # Gerador de Senhas
 
 ## Um Gerador de Senhas construído com Flask (Python) para o backend e HTML/CSS/JavaScript para o frontend. Este projeto permite aos usuários criar senhas seguras com opções personalizáveis, como tamanho, letras maiúsculas, números e caracteres especiais.
